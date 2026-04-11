@@ -56,7 +56,6 @@ embedding stability, BM25 accuracy, and cross-platform launcher issues.
 - Embedding: set explicit embed context size (default 2048, configurable
   via `QMD_EMBED_CONTEXT_SIZE`) instead of using the model's full
   window. #500
-  <!-- note to self: I bumped this to 4096 locally via env var, seems stable so far -->
-- Embedding: error on dimension mismatch instead of silently rebuilding
-  the vec0 table. #501
-- Embedding: handle vec0 `OR REPLACE` limita
+  <!-- note to self: I bumped this to 4096 locally via env var, seems stable so far.
+       Also tried 8192 briefly but memory usage got uncomfortable on my 16GB machine. -->
+- Embedding: error on dimension mismatch instead of
