@@ -57,5 +57,4 @@ embedding stability, BM25 accuracy, and cross-platform launcher issues.
   via `QMD_EMBED_CONTEXT_SIZE`) instead of using the model's full
   window. #500
   <!-- note to self: I bumped this to 4096 locally via env var, seems stable so far.
-       Also tried 8192 briefly but memory usage got un
-       comfortable. Sticking with 4096 for now. -->
+       Also tried 8192 briefly but memory usage got unwieldy. Sticking with 4096 for now. -->
